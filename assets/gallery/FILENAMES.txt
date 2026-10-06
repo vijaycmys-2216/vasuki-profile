@@ -1,0 +1,20 @@
+Gallery photos
+==============
+These are filled in already. To add more, add a new { file, caption }
+entry to the GALLERY array in data.js, then drop the matching JPEG here
+using that filename — landscape photos (4:3-ish) look best, they get
+cropped to fit.
+
+dos-mathematics-1.jpg                  — Department of Studies in Mathematics, University of Mysore
+uom-campus-1.jpg                       — University of Mysore · Manasagangotri main gate
+uom-campus-2.jpg                       — Crawford Hall, University of Mysore
+adiga-62nd-birthday-conference-2019.jpg — Prof. C. Adiga's 62nd birthday, Intl. Conf. on Number Theory & Graph Theory, 27–29 June 2019
+group-photo-conference-2019.jpg        — Group photo, Intl. Conf. on Number Theory & Graph Theory, 27–29 June 2019
+icsfa-2022.jpg                         — ICSFA 2022
+bruce-c-berndt-visiting-dos.jpg        — Bruce C. Berndt visiting DOS Mathematics, UOM
+with-bruce-c-berndt.jpg                — With Bruce C. Berndt
+with-david-m-bressoud-1.jpg            — With David M. Bressoud
+with-david-m-bressoud-2.jpg            — With David M. Bressoud
+with-z-g-liu.jpg                       — With Z. G. Liu
+with-atul-dixit-bibekananda-maji.jpg   — With Atul Dixit and Bibekananda Maji
+ramanujan-birthplace-kumbakonam.jpg    — Birthplace and childhood home of Srinivasa Ramanujan, Kumbakonam
