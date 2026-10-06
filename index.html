@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>K. R. Vasuki · Department of Studies in Mathematics</title>
+<meta name="description" content="Faculty profile for K. R. Vasuki, Senior Professor of Mathematics, University of Mysore. Special functions and number theory.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<!-- ── Utility bar ─────────────────────────────────────────── -->
+<div class="utility">
+  <div class="wrap utility__inner">
+    <span class="utility__tag">University of Mysore</span>
+    <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch color theme">
+      <svg viewBox="0 0 24 24" aria-hidden="true" class="icon-sun"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5.2 5.2l1.9 1.9M16.9 16.9l1.9 1.9M18.8 5.2l-1.9 1.9M7.1 16.9l-1.9 1.9"/></svg>
+      <svg viewBox="0 0 24 24" aria-hidden="true" class="icon-moon"><path d="M20 14.2A8.2 8.2 0 1 1 9.8 4a6.6 6.6 0 0 0 10.2 10.2Z"/></svg>
+    </button>
+  </div>
+</div>
+
+<!-- ── Masthead ────────────────────────────────────────────── -->
+<header class="masthead" id="masthead">
+  <div class="wrap masthead__inner">
+    <a class="brand" href="#">
+      <img class="brand__mark" src="assets/uom-emblem.png" alt="University of Mysore emblem" width="500" height="572">
+      <span class="brand__text">
+        <strong>Mathematics</strong>
+        <small>Department of Studies · Manasagangotri</small>
+      </span>
+    </a>
+  </div>
+</header>
+
+<main id="main">
+  <!-- ── Profile hero ──────────────────────────────────────── -->
+  <section class="hero">
+    <div class="wrap hero__inner">
+      <h1 class="hero__name reveal">K. R. Vasuki</h1>
+      <p class="hero__title reveal">Senior Professor of Mathematics · University of Mysore</p>
+      <ul class="tags reveal" aria-label="Research areas">
+        <li><a href="#">Special Functions</a></li>
+        <li><a href="#">Number Theory</a></li>
+        <li><a href="#">Modular Equations</a></li>
+        <li><a href="#">Continued Fractions</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="wrap layout">
+    <!-- ── Sidebar ─────────────────────────────────────────── -->
+    <aside class="sidebar">
+      <figure class="portrait reveal">
+        <img src="assets/vasuki.jpg" alt="Portrait of K. R. Vasuki" width="224" height="256">
+      </figure>
+
+      <div class="card reveal card--contact">
+        <h2 class="card__head">Contact</h2>
+        <dl class="contact">
+          <dt>Department</dt><dd>Department of Studies in Mathematics</dd>
+          <dt>Address</dt><dd>Manasagangotri<br>University of Mysore<br>Mysuru 570 006, Karnataka, India</dd>
+          <dt>Email</dt>
+          <dd class="contact__email">
+            <a href="mailto:vasuki_kr@hotmail.com">vasuki_kr@hotmail.com</a>
+            <button class="copy" id="copyEmail" data-copy="vasuki_kr@hotmail.com" type="button">Copy</button>
+          </dd>
+        </dl>
+        <a class="btn btn--solid" href="https://scholar.google.com/citations?hl=en&amp;user=9Ucx9csAAAAJ" target="_blank" rel="noopener">Google Scholar <span aria-hidden="true">↗</span></a>
+        <a class="btn btn--outline" href="https://www.researchgate.net/profile/K-Vasuki" target="_blank" rel="noopener">ResearchGate <span aria-hidden="true">↗</span></a>
+      </div>
+
+      <div class="card reveal card--metrics">
+        <h2 class="card__head">Citation Metrics</h2>
+        <ul class="metrics" id="metrics"></ul>
+      </div>
+
+      <div class="card reveal card--venues">
+        <h2 class="card__head">Frequent Venues</h2>
+        <ul class="linklist" id="venues"></ul>
+      </div>
+    </aside>
+
+    <!-- ── Main column ─────────────────────────────────────── -->
+    <div class="content">
+      <div class="tabs reveal">
+        <div class="tabs__bar" role="tablist" aria-label="Profile sections">
+          <button role="tab" id="tab-overview" aria-controls="panel-overview" aria-selected="true">Overview</button>
+          <button role="tab" id="tab-research" aria-controls="panel-research" aria-selected="false" tabindex="-1">Research</button>
+          <button role="tab" id="tab-pubs" aria-controls="panel-pubs" aria-selected="false" tabindex="-1">Publications</button>
+          <button role="tab" id="tab-students" aria-controls="panel-students" aria-selected="false" tabindex="-1">Students</button>
+          <button role="tab" id="tab-gallery" aria-controls="panel-gallery" aria-selected="false" tabindex="-1">Gallery</button>
+        </div>
+
+        <!-- Overview -->
+        <section role="tabpanel" id="panel-overview" aria-labelledby="tab-overview" tabindex="0">
+          <p class="lede">K. R. Vasuki is Senior Professor of Mathematics in the Department of Studies in Mathematics at the University of Mysore, working in special functions and number theory.</p>
+          <p>His published record spans <strong id="ov-span">1998–2026</strong> and comprises <strong id="ov-count">85</strong> indexed works, concentrated on Ramanujan's theta-function identities, modular equations of prime and composite degree, continued fractions of the Rogers–Ramanujan and Göllnitz–Gordon type, Eisenstein series, and basic bilateral hypergeometric summation. Recurring venues include <em>The Ramanujan Journal</em>, the <em>Journal of Number Theory</em>, the <em>International Journal of Number Theory</em>, and the <em>Journal of Mathematical Analysis and Applications</em>.</p>
+
+          <h3>At a glance</h3>
+          <ul class="stats" id="stats"></ul>
+
+          <h3>Publications per year</h3>
+          <figure class="chart" id="chart">
+            <figcaption class="sr-only">Bar chart of indexed publications per year.</figcaption>
+          </figure>
+        </section>
+
+        <!-- Research -->
+        <section role="tabpanel" id="panel-research" aria-labelledby="tab-research" tabindex="0" hidden>
+          <p class="lede">Special functions and number theory — chiefly the identities recorded in Ramanujan's notebooks and the classical analysis needed to prove them.</p>
+          <p>The work sits where q-series, modular forms, and classical analysis meet. Recurring objects are Ramanujan's theta functions and their level-<em>N</em> identities, modular equations of degree 7, 11, 21, 23, 25, and 35, continued fractions arising from basic bilateral hypergeometric series, Eisenstein series of small level, class invariants, and Ramanujan–Sato type series for 1/π.</p>
+
+          <h3>Education</h3>
+          <ol class="edu" id="education"></ol>
+
+          <h3>Research Guide</h3>
+          <div class="guide" id="guide"></div>
+
+          <h3>Themes in the record</h3>
+          <p class="hint">Counted by keyword across the indexed titles — select one to filter the publication list.</p>
+          <ul class="themes" id="themes"></ul>
+        </section>
+
+        <!-- Publications -->
+        <section role="tabpanel" id="panel-pubs" aria-labelledby="tab-pubs" tabindex="0" hidden>
+          <div class="filters">
+            <div class="field">
+              <label class="sr-only" for="q">Search publications</label>
+              <input type="search" id="q" placeholder="Search title, co-author, or journal…" autocomplete="off">
+            </div>
+            <div class="field field--sm">
+              <label class="sr-only" for="sort">Sort by</label>
+              <select id="sort">
+                <option value="year">Newest first</option>
+                <option value="year-asc">Oldest first</option>
+                <option value="cites">Most cited</option>
+              </select>
+            </div>
+            <button class="chip chip--clear" id="clearFilters" type="button" hidden>Clear</button>
+          </div>
+
+          <p class="result-count" id="count" role="status" aria-live="polite"></p>
+          <ol class="pubs" id="pubs"></ol>
+          <p class="empty" id="empty" hidden>No publications match that search.</p>
+        </section>
+
+        <!-- Students -->
+        <section role="tabpanel" id="panel-students" aria-labelledby="tab-students" tabindex="0" hidden>
+          <p class="lede">Doctoral students supervised at the Department of Studies in Mathematics, University of Mysore.</p>
+
+          <div class="students">
+            <div class="students__col">
+              <h3>Present Research Scholars <span class="pill" id="scholarCount"></span></h3>
+              <p class="hint">Currently pursuing a Ph.D. under this supervision.</p>
+              <ul class="students__list students__list--present" id="researchScholars"></ul>
+            </div>
+            <div class="students__col">
+              <h3>Past Students <span class="pill" id="phdCount"></span></h3>
+              <p class="hint">Ph.D. awardees, oldest first.</p>
+              <ol class="students__list" id="phdStudents"></ol>
+            </div>
+          </div>
+        </section>
+
+        <!-- Gallery -->
+        <section role="tabpanel" id="panel-gallery" aria-labelledby="tab-gallery" tabindex="0" hidden>
+          <p class="lede">Department of Studies in Mathematics and the University of Mysore, Manasagangotri.</p>
+          <ul class="gallery" id="gallery"></ul>
+        </section>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <p class="site-footer__note">K. R. Vasuki · Department of Studies in Mathematics · University of Mysore</p>
+  <p class="site-footer__visits" id="visitCounter" hidden>
+    <img id="visitBadge" alt="Page view count" height="20">
+  </p>
+</footer>
+
+<button class="totop" id="toTop" type="button" aria-label="Back to top">↑</button>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="filters.js"></script>
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
